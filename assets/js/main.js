@@ -25,7 +25,7 @@ $( ".card-title" ).click(function() {
   })
   
   $(".fas").click(function(){
-    $("img").animate({
+    $(".pruebaimg").animate({
        height: 'toggle'
     });
   });
