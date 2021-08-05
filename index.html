@@ -16,9 +16,8 @@
 
 <body>
 
-
-	<header>
-		<nav class="navbar navbar-expand-lg navbar-dark fixed-top ">
+	<header class="header">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-light" style="z-index: 20; ">
 			<div class="container">
 				<a class="navbar-brand" href="#"><img src="assets/img/viajes.svg" alt="" height="25">Viaje Chile</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -36,34 +35,37 @@
 				</div>
 			</div>
 		</nav>
-		<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img src="assets/img/carousel1.jpg" class="d-block w-100" alt="... " height="500">
+
+		<section style="margin-top: -60px ">
+			<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="assets/img/carousel1.jpg" class="d-block w-100" alt="... " height="500">
+					</div>
+					<div class="carousel-item">
+						<img src="assets/img/carousel2.jpg" class="d-block w-100" alt="..." height="500">
+					</div>
+					<div class="carousel-item">
+						<img src="assets/img/carousel3.jpg" class="d-block w-100" alt="..." height="500">
+					</div>
 				</div>
-				<div class="carousel-item">
-					<img src="assets/img/carousel2.jpg" class="d-block w-100" alt="..." height="500">
-				</div>
-				<div class="carousel-item">
-					<img src="assets/img/carousel3.jpg" class="d-block w-100" alt="..." height="500">
-				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+					data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+					data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
 			</div>
-			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-				data-bs-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Previous</span>
-			</button>
-			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-				data-bs-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Next</span>
-			</button>
-		</div>
+		</section>
 	</header>
 	<main>
 		<section>
-			<div id="quienessomos" class="container text-white d-none d-sm-block d-sm-none d-md-block my-4">
-				<h2 class="text-center border-bottom border-info pb-3">Quienes Somos</h2>
+			<div id="quienessomos" class="container text-white d-none d-sm-block d-sm-none d-md-block py-4">
+				<h2 class="text-center border-bottom border-info pb-4">Quienes Somos</h2>
 				<div class="row align-items-center">
 					<div class="col col-12 col-sm-12 col-lg-4 col-xl-4 py-5">
 						<i class="fas fa-plane container-fluid text-center py-2 mb-2 bg-info fa-lg"></i>
@@ -112,7 +114,7 @@
 				</div>
 			</div>
 		</section>
-		<div id="destacados" class="container text-white my-4 ">
+		<div id="destacados" class="container text-white py-4 ">
 			<h2 class="text-center border-bottom border-info pb-5 ">Destacados</h2>
 			<div class="row row-cols-1 row-cols-md-4 g-4">
 				<div class="col">
@@ -127,7 +129,7 @@
 				</div>
 				<div class="col">
 					<div class="card h-100 mx-auto bg-info">
-						<img src="assets/img/card2.jpg" class="card-img-top" alt="card3" height="170">
+						<img src="assets/img/card2.jpg" class="card-img-top" alt="card1" height="170">
 						<div class="card-body">
 							<h5 class="card-title">consectetur adipisicing elit</h5>
 							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
@@ -138,7 +140,7 @@
 				</div>
 				<div class="col">
 					<div class="card h-100 mx-auto bg-info">
-						<img src="assets/img/card3.jpg" class="card-img-top" alt="card3" height="170">
+						<img src="assets/img/card3.jpg" class="card-img-top" alt="card1" height="170">
 						<div class="card-body">
 							<h5 class="card-title">Aperiam totam cum ipsam voluptatem distinctio Veniam labore</h5>
 							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
@@ -149,7 +151,7 @@
 				</div>
 				<div class="col">
 					<div class="card h-100 mx-auto bg-info">
-						<img src="assets/img/card4.jpg" class="card-img-top" alt="card4" height="170">
+						<img src="assets/img/card4.jpg" class="card-img-top" alt="card1" height="170">
 						<div class="card-body">
 							<h5 class="card-title"> Veniam labore recusandae aspernatur eveniet cupiditate </h5>
 							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, repellat
@@ -163,27 +165,27 @@
 		<section>
 			<div id="contacto" class="container py-4">
 				<h2 class="text-center text-white border-bottom border-info pb-3 ">Contacto</h2>
-
-				<div class="typeform-widget mt-3"
+				<div class="typeform-widget py-4"
 					data-url="https://form.typeform.com/to/XTIGFeuT?typeform-medium=embed-snippet"
 					style="width: 100%; height: 500px;"></div>
 				<script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })()</script>
-			</div>
 		</section>
 	</main>
 
 	<footer class="bg-info ">
-		<div class="container text-white ml-5 mx-5">
+		<div class="container text-white">
 			<div class="row justify-content-between">
 				<div class="col-4">
 					<h2 class="text-nowrap font-weight-bold ">Viaje Chile</h2>
 				</div>
 				<div class="col-4">
-					<div class="d-flex justify-content-end">
-						<div class="p-2 bd-highlight"><i class="fab fa-github fa-2x"></i></div>
-						<div class="p-2 bd-highlight"><i class="fab fa-linkedin fa-2x"></i></div>
-						<div class="p-2 bd-highlight"><i class="fab fa-twitter-square fa-2x"></i></div>
-						<div class="p-2 bd-highlight"><i class="fab fa-facebook-square fa-2x"></i></div>
+					<div class="container">
+						<div class="d-flex justify-content-end">
+							<div class="p-2 bd-highlight"><i class="fab fa-github fa-2x"></i></div>
+							<div class="p-2 bd-highlight"><i class="fab fa-linkedin fa-2x"></i></div>
+							<div class="p-2 bd-highlight"><i class="fab fa-twitter-square fa-2x"></i></div>
+							<div class="p-2 bd-highlight"><i class="fab fa-facebook-square fa-2x"></i></div>
+						</div>
 					</div>
 				</div>
 			</div>

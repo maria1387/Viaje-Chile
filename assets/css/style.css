@@ -2,15 +2,22 @@
 --fondo:#000000;
 }
 
-body{
-background-color: var(--fondo);
-}
-
 @media only screen and (max-width: 600px) {
 	.card {
 		width: 80% !important;
 	}
+		.carrousel-item>img	{
+			height: 50px;
+			}
+	
 }
 h2:hover {
 	color: orange;
   }
+.header .navbar {
+	background-color: transparent !important;
+}
+
+main{
+	background-color: var(--fondo);
+}
