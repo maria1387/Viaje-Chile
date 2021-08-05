@@ -1,0 +1,16 @@
+:root{
+--fondo:#000000;
+}
+
+body{
+background-color: var(--fondo);
+}
+
+@media only screen and (max-width: 600px) {
+	.card {
+		width: 80% !important;
+	}
+}
+h2:hover {
+	color: orange;
+  }
