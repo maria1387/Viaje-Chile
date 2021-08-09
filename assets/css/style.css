@@ -12,9 +12,6 @@
 			}
 	
 }
-h2:hover {
-	color: orange;
-}
 header .navbar {
 	background-color: transparent !important;
 }
@@ -28,3 +25,40 @@ background-color: var(--fondo);
 body{
 	font-family: 'Montserrat', sans-serif;
 }
+h2 {
+	color: #fff;
+	cursor: default;
+  }
+
+
+  .tooltip-main {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	font-weight: 700;
+	background: #1fe3f1;
+	margin: 4px 121px 0 5px;
+	float: right;
+	text-align: left !important;
+  }
+  
+  .tooltip-qm {
+	float: left;
+	margin: -2px 0px 3px 4px;
+	font-size: 12px;
+  }
+  
+  .tooltip-inner {
+	max-width: 236px !important;
+	height: 76px;
+	font-size: 12px;
+	padding: 10px 15px 10px 20px;
+	background:#1fe3f1;
+	color: rgba(0, 0, 0, 0.7);
+	border: 1px solid #737373;
+	text-align: left;
+  }
+  
+  .tooltip.show {
+	opacity: 1;
+  }
