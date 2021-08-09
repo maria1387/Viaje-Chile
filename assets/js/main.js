@@ -12,8 +12,8 @@ window.location.hash = gato;
 });
 } 
 });
-$( ".card-title" ).click(function() {
-	$( ".card-text" ).toggle( "slow", function() {
+$( ".fas" ).click(function() {
+	$( ".pruebaimg" ).toggle( "slow", function() {
 	  // Animation complete.
 	});
   });
@@ -24,10 +24,11 @@ $( ".card-title" ).click(function() {
 	return new bootstrap.Tooltip(tooltipTriggerEl)
   })
   
-  $(".fas").click(function(){
-    $(".pruebaimg").animate({
-       height: 'toggle'
-    });
-  });
+  var myModal = document.getElementById('myModal')
+var myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', function () {
+  myInput.focus()
+})
 });
 

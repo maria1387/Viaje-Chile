@@ -1,5 +1,6 @@
 :root{
 --fondo:#000000;
+--celeste:#19A3B8;
 }
 
 @media only screen and (max-width: 600px) {
@@ -13,11 +14,17 @@
 }
 h2:hover {
 	color: orange;
-  }
-.header .navbar {
+}
+header .navbar {
 	background-color: transparent !important;
 }
-
 main{
-	background-color: var(--fondo);
+background-color: var(--fondo);
+
+}
+.cele{
+	background-color: var(--celeste);
+}
+body{
+	font-family: 'Montserrat', sans-serif;
 }

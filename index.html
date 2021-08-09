@@ -11,13 +11,15 @@
 	<title>Viaje Chile</title>
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
 		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
 <body>
 
 	<header class="header">
-		<nav class="navbar navbar-expand-lg navbar-dark bg-light" style="z-index: 20; ">
+		<nav class="navbar navbar-expand-lg navbar-dark " style="z-index: 20; ">
 			<div class="container">
 				<a class="navbar-brand" href="#"><img src="assets/img/viajes.svg" alt="" height="25">Viaje Chile</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -28,7 +30,7 @@
 				<div class="collapse navbar-collapse " id="navbarNavAltMarkup">
 					<div class="navbar-nav ms-auto">
 						<a class="nav-link active" aria-current="page" href="#">Inicio</a>
-						<a class="nav-link" href="#quienessomos">¿Quienes Somos?</a>
+						<a class="nav-link" href="#quienessomos">Quienes Somos</a>
 						<a class="nav-link" href="#destacados">Destacados</a>
 						<a class="nav-link" href="#contacto">Contacto</a>
 					</div>
@@ -64,11 +66,11 @@
 	</header>
 	<main>
 		<section>
-			<div id="quienessomos" class="container text-white d-none d-sm-block d-sm-none d-md-block py-4">
-				<h2 class="text-center border-bottom border-info pb-4">Quienes Somos</h2>
-				<div class="row align-items-center">
-					<div class="col col-12 col-sm-12 col-lg-4 col-xl-4 py-5">
-						<i class="fas fa-plane container-fluid text-center py-2 mb-2 bg-info fa-lg"></i>
+			<div id="quienessomos" class="container text-white d-none d-sm-block d-sm-none d-md-block py-5">
+				<h2 class="text-center border-bottom border-info pb-3">¿Quienes Somos?</h2>
+				<div class="row align-items-center pt-3">
+					<div class="col col-12 col-sm-12 col-lg-4 col-xl-4">
+						<i class="fas fa-plane container-fluid text-center py-2 mb-2 cele fa-lg"></i>
 						<img src="assets/img/card2.jpg" alt="prueba" height="200" class="pruebaimg">
 						<p class=""> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur neque
 							expedita modi
@@ -94,11 +96,11 @@
 							modi nobis eveniet incidunt. Minus, sequi mollitia obcaecati iure enim facere, consequuntur
 							quasi distinctio asperiores incidunt architecto laborum qui aspernatur sapiente, esse
 							minima!</p>
-						<i class="fas fa-mountain container-fluid text-center py-2 mt-2 bg-info fa-lg"></i>
+						<i class="fas fa-mountain container-fluid text-center py-2 mt-2 cele fa-lg"></i>
 						<img src="assets/img/card1.jpg" alt="" height="200" class="pruebaimg">
 					</div>
 					<div class="col col-12 col-sm-12 col-lg-4 col-xl-4">
-						<i class="fas fa-route container-fluid bg-info text-center py-2 mb-2 fa-lg"></i>
+						<i class="fas fa-route container-fluid cele text-center py-2 mb-2 fa-lg"></i>
 						<img src="assets/img/card4.jpg" alt="" height="200" class="pruebaimg">
 						<p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam accusamus, qui,
 							officia
@@ -115,48 +117,178 @@
 			</div>
 		</section>
 		<div id="destacados" class="container text-white py-4 ">
-			<h2 class="text-center border-bottom border-info pb-5 ">Destacados</h2>
-			<div class="row row-cols-1 row-cols-md-4 g-4">
+			<h2 class="text-center border-bottom border-info pb-3 ">Destacados</h2>
+			<div class="row row-cols-1 row-cols-md-4 g-4 pt-2">
 				<div class="col">
-					<div class="card h-100 mx-auto bg-info">
+					<div class="card h-100 mx-auto cele ">
 						<img src="assets/img/card1.jpg" class="card-img-top" alt="card1" height="170">
 						<div class="card-body">
-							<h5 class="card-title">Lorem ipsum dolor, sit amet .</h5>
+							<h5 class="card-title" data-bs-toggle="modal" data-bs-target="#exampleModal">Lorem ipsum
+								dolor, sit amet .</h5>
 							<p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias ad
 								dicta reiciendis sed illum minima in? Excepturi, molestias non.</p>
 						</div>
 					</div>
 				</div>
+				<!-- Modal -->
+				<div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+					aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit facilis cum maiores deserunt,
+									ea iste saepe quasi error minima voluptates autem dolore natus rem tempore consequatur. Fuga
+									adipisci aperiam asperiores delectus quibusdam qui quod dolorum ducimus voluptatem
+									reprehenderit. Corrupti sapiente consequatur est odio illo, iusto culpa eius.</p>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo commodi atque dicta aut aliquid
+									perferendis facilis nihil voluptates, praesentium voluptate officiis nostrum. Aliquid
+									eveniet nobis minima aspernatur reprehenderit iusto harum architecto quos suscipit,
+									obcaecati quo deserunt laborum corrupti necessitatibus saepe porro sed nulla. Nihil,
+									molestias voluptates, quisquam aliquid tempore voluptatibus reprehenderit hic, placeat
+									necessitatibus accusamus nisi sunt pariatur dolores commodi porro! Pariatur quod deleniti
+									qui adipisci dolores.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore magnam nisi quibusdam error odit animi earum fugiat aliquam illum sunt numquam, nobis perferendis facilis culpa ratione possimus consequatur. Consequuntur qui placeat aliquid necessitatibus assumenda odit illum esse sunt, ab neque voluptate unde id obcaecati laborum impedit exercitationem accusamus voluptates eius quaerat, laudantium tempora odio, deserunt repudiandae harum? Fugiat quaerat aut a omnis quae autem fuga sunt voluptates totam, labore deserunt ea molestias sapiente blanditiis nemo culpa quibusdam repudiandae rem incidunt.</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div class="col">
-					<div class="card h-100 mx-auto bg-info">
+					<div class="card h-100 mx-auto cele">
 						<img src="assets/img/card2.jpg" class="card-img-top" alt="card1" height="170">
 						<div class="card-body">
-							<h5 class="card-title">consectetur adipisicing elit</h5>
+							<h5 class="card-title" data-bs-toggle="modal" data-bs-target="#exampleModal">consectetur
+								adipisicing elit</h5>
 							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
 								perferendis voluptatibus sapiente quas quis quo quaerat consequatur omnis blanditiis.
 							</p>
 						</div>
 					</div>
 				</div>
+				<!-- Modal -->
+				<div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+					aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit facilis cum maiores deserunt,
+									ea iste saepe quasi error minima voluptates autem dolore natus rem tempore consequatur. Fuga
+									adipisci aperiam asperiores delectus quibusdam qui quod dolorum ducimus voluptatem
+									reprehenderit. Corrupti sapiente consequatur est odio illo, iusto culpa eius.</p>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo commodi atque dicta aut aliquid
+									perferendis facilis nihil voluptates, praesentium voluptate officiis nostrum. Aliquid
+									eveniet nobis minima aspernatur reprehenderit iusto harum architecto quos suscipit,
+									obcaecati quo deserunt laborum corrupti necessitatibus saepe porro sed nulla. Nihil,
+									molestias voluptates, quisquam aliquid tempore voluptatibus reprehenderit hic, placeat
+									necessitatibus accusamus nisi sunt pariatur dolores commodi porro! Pariatur quod deleniti
+									qui adipisci dolores.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore magnam nisi quibusdam error odit animi earum fugiat aliquam illum sunt numquam, nobis perferendis facilis culpa ratione possimus consequatur. Consequuntur qui placeat aliquid necessitatibus assumenda odit illum esse sunt, ab neque voluptate unde id obcaecati laborum impedit exercitationem accusamus voluptates eius quaerat, laudantium tempora odio, deserunt repudiandae harum? Fugiat quaerat aut a omnis quae autem fuga sunt voluptates totam, labore deserunt ea molestias sapiente blanditiis nemo culpa quibusdam repudiandae rem incidunt.</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div class="col">
-					<div class="card h-100 mx-auto bg-info">
+					<div class="card h-100 mx-auto cele">
 						<img src="assets/img/card3.jpg" class="card-img-top" alt="card1" height="170">
 						<div class="card-body">
-							<h5 class="card-title">Aperiam totam cum ipsam voluptatem distinctio Veniam labore</h5>
+							<h5 class="card-title" data-bs-toggle="modal" data-bs-target="#exampleModal">Aperiam totam
+								cum ipsam voluptatem distinctio Veniam labore</h5>
 							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
 								quisquam incidunt recusandae exercitationem beatae quo molestiae vel numquam officiis!
 							</p>
 						</div>
 					</div>
 				</div>
+				<!-- Modal -->
+				<div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+					aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit facilis cum maiores deserunt,
+									ea iste saepe quasi error minima voluptates autem dolore natus rem tempore consequatur. Fuga
+									adipisci aperiam asperiores delectus quibusdam qui quod dolorum ducimus voluptatem
+									reprehenderit. Corrupti sapiente consequatur est odio illo, iusto culpa eius.</p>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo commodi atque dicta aut aliquid
+									perferendis facilis nihil voluptates, praesentium voluptate officiis nostrum. Aliquid
+									eveniet nobis minima aspernatur reprehenderit iusto harum architecto quos suscipit,
+									obcaecati quo deserunt laborum corrupti necessitatibus saepe porro sed nulla. Nihil,
+									molestias voluptates, quisquam aliquid tempore voluptatibus reprehenderit hic, placeat
+									necessitatibus accusamus nisi sunt pariatur dolores commodi porro! Pariatur quod deleniti
+									qui adipisci dolores.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore magnam nisi quibusdam error odit animi earum fugiat aliquam illum sunt numquam, nobis perferendis facilis culpa ratione possimus consequatur. Consequuntur qui placeat aliquid necessitatibus assumenda odit illum esse sunt, ab neque voluptate unde id obcaecati laborum impedit exercitationem accusamus voluptates eius quaerat, laudantium tempora odio, deserunt repudiandae harum? Fugiat quaerat aut a omnis quae autem fuga sunt voluptates totam, labore deserunt ea molestias sapiente blanditiis nemo culpa quibusdam repudiandae rem incidunt.</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div class="col">
-					<div class="card h-100 mx-auto bg-info">
+					<div class="card h-100 mx-auto cele">
 						<img src="assets/img/card4.jpg" class="card-img-top" alt="card1" height="170">
 						<div class="card-body">
-							<h5 class="card-title"> Veniam labore recusandae aspernatur eveniet cupiditate </h5>
+							<h5 class="card-title" data-bs-toggle="modal" data-bs-target="#exampleModal"> Veniam labore
+								recusandae aspernatur eveniet cupiditate </h5>
 							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, repellat
 								a! Culpa dolore, quis vel exercitationem consectetur aut recusandae?</p>
 						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal -->
+		<div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Veniam labore recusandae aspernatur eveniet
+							cupiditate</h5>
+							
+
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<img src="assets/img/card4.jpg" class="card-img-top" alt="card1" height="230">
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit facilis cum maiores deserunt,
+							ea iste saepe quasi error minima voluptates autem dolore natus rem tempore consequatur. Fuga
+							adipisci aperiam asperiores delectus quibusdam qui quod dolorum ducimus voluptatem
+							reprehenderit. Corrupti sapiente consequatur est odio illo, iusto culpa eius.</p>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo commodi atque dicta aut aliquid
+							perferendis facilis nihil voluptates, praesentium voluptate officiis nostrum. Aliquid
+							eveniet nobis minima aspernatur reprehenderit iusto harum architecto quos suscipit,
+							obcaecati quo deserunt laborum corrupti necessitatibus saepe porro sed nulla. Nihil,
+							molestias voluptates, quisquam aliquid tempore voluptatibus reprehenderit hic, placeat
+							necessitatibus accusamus nisi sunt pariatur dolores commodi porro! Pariatur quod deleniti
+							qui adipisci dolores.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore magnam nisi quibusdam error odit animi earum fugiat aliquam illum sunt numquam, nobis perferendis facilis culpa ratione possimus consequatur. Consequuntur qui placeat aliquid necessitatibus assumenda odit illum esse sunt, ab neque voluptate unde id obcaecati laborum impedit exercitationem accusamus voluptates eius quaerat, laudantium tempora odio, deserunt repudiandae harum? Fugiat quaerat aut a omnis quae autem fuga sunt voluptates totam, labore deserunt ea molestias sapiente blanditiis nemo culpa quibusdam repudiandae rem incidunt.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Save changes</button>
 					</div>
 				</div>
 			</div>
@@ -165,22 +297,22 @@
 		<section>
 			<div id="contacto" class="container py-4">
 				<h2 class="text-center text-white border-bottom border-info pb-3 ">Contacto</h2>
-				<div class="typeform-widget py-4"
+				<div class="typeform-widget pt-2"
 					data-url="https://form.typeform.com/to/XTIGFeuT?typeform-medium=embed-snippet"
 					style="width: 100%; height: 500px;"></div>
 				<script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })()</script>
 		</section>
 	</main>
 
-	<footer class="bg-info ">
+	<footer class="cele  ">
 		<div class="container text-white">
 			<div class="row justify-content-between">
 				<div class="col-4">
-					<h2 class="text-nowrap font-weight-bold ">Viaje Chile</h2>
+					<h2 class="text-nowrap font-weight-bold ps-5">Viaje Chile</h2>
 				</div>
 				<div class="col-4">
 					<div class="container">
-						<div class="d-flex justify-content-end">
+						<div class="d-flex justify-content-end pe-5">
 							<div class="p-2 bd-highlight"><i class="fab fa-github fa-2x"></i></div>
 							<div class="p-2 bd-highlight"><i class="fab fa-linkedin fa-2x"></i></div>
 							<div class="p-2 bd-highlight"><i class="fab fa-twitter-square fa-2x"></i></div>
