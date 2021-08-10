@@ -3,62 +3,39 @@
 --celeste:#19A3B8;
 }
 
-@media only screen and (max-width: 600px) {
-	.card {
-		width: 80% !important;
-	}
-		.carrousel-item>img	{
-			height: 50px;
-			}
+/* Global Styles */
+main{
+	background-color: var(--fondo);
 	
-}
+	}
+.cele{
+		background-color: var(--celeste);
+	}
+body{
+		font-family: 'Montserrat', sans-serif;
+	}
+
+/* Navbar */
 header .navbar {
 	background-color: transparent !important;
 }
-main{
-background-color: var(--fondo);
 
-}
-.cele{
-	background-color: var(--celeste);
-}
-body{
-	font-family: 'Montserrat', sans-serif;
-}
+/* hover h2 */
 h2 {
 	color: #fff;
 	cursor: default;
   }
 
 
-  .tooltip-main {
-	width: 15px;
-	height: 15px;
-	border-radius: 50%;
-	font-weight: 700;
-	background: #1fe3f1;
-	margin: 4px 121px 0 5px;
-	float: right;
-	text-align: left !important;
-  }
-  
-  .tooltip-qm {
-	float: left;
-	margin: -2px 0px 3px 4px;
-	font-size: 12px;
-  }
-  
-  .tooltip-inner {
-	max-width: 236px !important;
-	height: 76px;
-	font-size: 12px;
-	padding: 10px 15px 10px 20px;
-	background:#1fe3f1;
-	color: rgba(0, 0, 0, 0.7);
-	border: 1px solid #737373;
-	text-align: left;
-  }
-  
-  .tooltip.show {
-	opacity: 1;
-  }
+ /* card */
+@media only screen and (max-width: 600px) {
+	.card {
+		width: 80% !important;
+}
+		.carrousel-item>img	{
+			height: 50px;
+}
+}
+.fas{
+	background-color: #19A3B8;
+ }
