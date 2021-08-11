@@ -37,5 +37,31 @@ h2 {
 }
 }
 .fas{
-	background-color: #19A3B8;
+	background-color: var(--celeste);
  }
+
+ .tooltip .tooltip-inner {
+	background: black;
+	color: lime;
+	border: 2px solid lime;
+  }
+  .tooltip .arrow {
+	width: 11px!important;
+	height: 11px!important;
+	border: 2px solid lime;
+	bottom: 1px;
+  }
+  .tooltip .arrow:before {
+	width: 11px;
+	height: 11px;
+	background: black;
+	border: 0;
+  }
+  .tooltip.bs-tooltip-top .arrow {
+	transform: rotate(-135deg);
+  }
+  .tooltip.bs-tooltip-bottom .arrow {
+	transform: rotate(135deg);
+	top: 2px;
+  }
+ 

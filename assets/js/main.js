@@ -21,7 +21,8 @@ window.location.hash = gato;
   $( ".card-text" ).on( "mouseover", function() {
 	$( this ).css( "color", "yellow" );
   });
-  
+
+ 
 
   $('.fas').dblclick(function() {
     var theColorIs = $(this).css("background-color");
@@ -43,5 +44,10 @@ myModal.addEventListener('shown.bs.modal', function () {
   myInput.focus()
 })
 
+
+
 });
 
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
