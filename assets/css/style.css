@@ -16,10 +16,15 @@ body{
 	}
 
 /* Navbar */
-header .navbar {
-	background-color: transparent !important;
-}
-
+#menuFijo {
+	background-color: transparent;
+	transition: background-color 0.5s ease;
+  }
+  
+  .menu-color-fijo-scroll {
+	  background-color: rgba(0,0,0,0.9)!important;
+	transition: background-color 1s ease;
+  }
 /* hover h2 */
 h2 {
 	color: #fff;
@@ -34,7 +39,12 @@ h2 {
 }
 		.carrousel-item>img	{
 			height: 50px;
-}
+			
+}  
+  footer {
+	padding-left: none;
+   padding-right: none;
+  }
 }
 .fas{
 	background-color: var(--celeste);
@@ -64,4 +74,3 @@ h2 {
 	transform: rotate(135deg);
 	top: 2px;
   }
- 

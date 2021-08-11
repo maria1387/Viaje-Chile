@@ -37,14 +37,23 @@ window.location.hash = gato;
 });
 
 
+$(window).scroll(function(){
+  var scroll = jQuery(window).scrollTop();
+  if (scroll >= 100) {
+    $("#menuFijo").addClass("menu-color-fijo-scroll");
+  }
+
+  else{
+    $("#menuFijo").removeClass("menu-color-fijo-scroll");  	
+  }
+});
+
   var myModal = document.getElementById('myModal')
 var myInput = document.getElementById('myInput')
 
 myModal.addEventListener('shown.bs.modal', function () {
   myInput.focus()
 })
-
-
 
 });
 
