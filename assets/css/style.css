@@ -19,6 +19,8 @@ body{
 #menuFijo {
 	background-color: transparent;
 	transition: background-color 0.5s ease;
+	position:fixed;
+	z-index: 999;
   }
   
   .menu-color-fijo-scroll {
@@ -38,7 +40,7 @@ h2 {
 		width: 80% !important;
 }
 		.carrousel-item>img	{
-			height: 50px;
+			height: 100 px;
 			
 }  
   footer {
@@ -49,7 +51,7 @@ h2 {
 .fas{
 	background-color: var(--celeste);
  }
-
+/*.tooltip*/
  .tooltip .tooltip-inner {
 	background: black;
 	color: lime;
